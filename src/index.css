@@ -29,13 +29,7 @@ body {
 
 .iconStyle {
   display: flex; /* Utiliza el modelo de caja flexible para alinear los elementos secundarios */
-  gap: 15px; /* Establece el espacio entre los elementos secundarios */
-  margin-bottom: 0.5em; /* Establece el margen inferior del elemento */
-}
-
-.icons {
-  width: auto; /* Establece el ancho automático del elemento */
-  height: 3.5em; /* Establece la altura del elemento */
+  justify-content: center;
 }
 
 .formStyle {
@@ -73,5 +67,5 @@ body {
 
 .texto {
   font-size: 1em; /* Establece el tamaño de fuente del elemento */
-  padding: 1em 0em; /* Establece el relleno del elemento */
+  padding: 0.5em 0em 0.5em 0em; /* Establece el relleno del elemento */
 }

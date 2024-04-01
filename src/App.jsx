@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css"; // Importa los estilos CSS de Bootstrap
 import { useState } from "react"; // Importa el hook useState de React
-import Registro from "./components/Registro"; // Importa el componente Registro desde un archivo local
-import Alerta from "./components/Alerta"; // Importa el componente Alerta desde un archivo local
+import Registro from "./components/Registro/Registro"; // Importa el componente Registro desde un archivo local
+import Alerta from "./components/Alerta/Alerta"; // Importa el componente Alerta desde un archivo local
 import "./App.css"; // Importa los estilos CSS personalizados
 
 function App() {

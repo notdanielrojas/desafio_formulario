@@ -1,7 +1,7 @@
 import { useState } from "react"; // Importa el hook useState de React para manejar el estado del componente
 import Button from "react-bootstrap/Button"; // Importa el componente Button de React Bootstrap
 import Form from "react-bootstrap/Form"; // Importa el componente Form de React Bootstrap
-import Alerta from "./Alerta"; // Importa el componente Alerta desde un archivo local
+import Alerta from "../Alerta/Alerta"; // Importa el componente Alerta desde un archivo local
 
 const Formulario = () => {
   // Define el componente funcional Formulario
